@@ -5,7 +5,9 @@ import Logo from "./logo";
 function Navbar() {
   return (
     <nav>
-      <Logo />
+      <a href="/">
+        <Logo />
+      </a>
       <Search />
       <button className="nav-btn">Give Feedback</button>
     </nav>
